@@ -10,3 +10,5 @@ export function delay(ms) {
 
 }
 
+export async function withLogging(label, fn) {
+
