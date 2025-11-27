@@ -16,3 +16,5 @@ export async function withLogging(label, fn) {
 
   const result = await fn();
 
+  console.log([done]  );
+
