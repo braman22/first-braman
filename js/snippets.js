@@ -28,3 +28,5 @@ export function notEmpty(value) {
 
 }
 
+export async function withLogging(label, fn) {
+
