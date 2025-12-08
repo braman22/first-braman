@@ -30,3 +30,10 @@ export function notEmpty(value) {
 
 export async function withLogging(label, fn) {
 
+
+export function delay(ms) {
+
+  return new Promise(resolve => setTimeout(resolve, ms));
+
+}
+
