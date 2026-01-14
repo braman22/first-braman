@@ -222,3 +222,8 @@ export async function withLogging(label, fn) {
   return result;
 }
 
+
+export function delay(ms) {
+  return new Promise(resolve => setTimeout(resolve, ms));
+}
+
