@@ -235,3 +235,11 @@ export async function withLogging(label, fn) {
   return result;
 }
 
+
+export async function withLogging(label, fn) {
+  console.log(`${label} - start`);
+  const result = await fn();
+  console.log(`${label} - done`);
+  return result;
+}
+
